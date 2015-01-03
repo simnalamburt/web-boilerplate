@@ -3,17 +3,17 @@ My Web Boilerplate
 
 ### Client
 
-*   npm
-*   bower
-*   Gulp
-*   Stylus
-*   LiveScript
-*   Angular
-*   Semantic UI
+*   [npm][]
+*   [bower][]
+*   [webpack][]
+*   [stylus][]
+*   [livescript][]
+*   [AngularJS][]
+*   [Semantic UI][]
 
 ### Server
 
-*   Rails
+*   [Rails][]
 
     Edit `config/application.rb` and `config/initializers/session_store.rb` to
     change internal name of the application
@@ -24,5 +24,16 @@ My Web Boilerplate
     rails server
     ```
 
-*   Redis
-*   Postgre
+*   [redis][]
+*   [PostgreSQL][]
+
+[npm]: https://npmjs.com
+[bower]: http://bower.io
+[webpack]: http://webpack.github.io
+[stylus]: http://learnboost.github.io/stylus
+[livescript]: http://livescript.net
+[AngularJS]: https://angularjs.org
+[Semantic UI]: http://semantic-ui.com
+[Rails]: http://rubyonrails.org
+[redis]: http://redis.io
+[PostgreSQL]: http://postgresql.org
