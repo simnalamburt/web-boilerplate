@@ -1,22 +1,25 @@
 My Web Boilerplate
 ========
 
-To change default appname
-
 ```
+# To find where default appname has been used
 ag appname
+
+# Prerequisite
+npm install bower webpack-dev-server -g
+gem install rails --no-document
+
+# Dependencies
+npm install
+bower install
+bundle install
+
+# Server
+webpack-dev-server --progress --colors
+cd server && rails server
 ```
 
 ### Client
-
-```sh
-# prerequisite
-npm install bower webpack-dev-server -g
-
-cd client
-npm install && bower install
-webpack-dev-server --progress --colors
-```
 
 *   [npm][]
 *   [bower][]
@@ -27,15 +30,6 @@ webpack-dev-server --progress --colors
 *   [Semantic UI][]
 
 ### Server
-
-```sh
-# prerequisite
-gem install rails --no-document
-
-cd server
-bundle install
-rails server
-```
 
 *   [Rails][]
 *   [redis][]
