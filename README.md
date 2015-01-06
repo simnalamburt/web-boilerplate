@@ -9,6 +9,7 @@ ag appname
 
 ```sh
 cd client
+npm install
 bower install
 ```
 
