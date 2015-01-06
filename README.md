@@ -1,7 +1,16 @@
 My Web Boilerplate
 ========
 
+```
+ag appname
+```
+
 ### Client
+
+```sh
+cd client
+bower install
+```
 
 *   [npm][]
 *   [bower][]
@@ -13,17 +22,13 @@ My Web Boilerplate
 
 ### Server
 
+```sh
+cd server
+bundle install
+rails server
+```
+
 *   [Rails][]
-
-    Edit `config/application.rb` and `config/initializers/session_store.rb` to
-    change internal name of the application
-
-    ```sh
-    cd server
-    bundle install
-    rails server
-    ```
-
 *   [redis][]
 *   [PostgreSQL][]
 
