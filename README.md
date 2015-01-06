@@ -1,6 +1,8 @@
 My Web Boilerplate
 ========
 
+To change default appname
+
 ```
 ag appname
 ```
@@ -8,9 +10,11 @@ ag appname
 ### Client
 
 ```sh
+# prerequisite
+npm install bower webpack-dev-server -g
+
 cd client
-npm install
-bower install
+npm install && bower install
 webpack-dev-server --progress --colors
 ```
 
@@ -25,6 +29,9 @@ webpack-dev-server --progress --colors
 ### Server
 
 ```sh
+# prerequisite
+gem install rails --no-document
+
 cd server
 bundle install
 rails server
