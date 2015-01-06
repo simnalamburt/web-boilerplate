@@ -11,6 +11,7 @@ ag appname
 cd client
 npm install
 bower install
+webpack-dev-server --progress --colors
 ```
 
 *   [npm][]
