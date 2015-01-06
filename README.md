@@ -1,7 +1,7 @@
 My Web Boilerplate
 ========
 
-```
+```sh
 # To find where default appname has been used
 ag appname
 
@@ -9,14 +9,15 @@ ag appname
 npm install bower webpack-dev-server -g
 gem install rails --no-document
 
-# Dependencies
+# Client
 npm install
 bower install
-bundle install
+webpack-dev-server --progress --colors
 
 # Server
-webpack-dev-server --progress --colors
-cd server && rails server
+cd server
+bundle install
+rails server
 ```
 
 ### Client
