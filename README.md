@@ -41,6 +41,10 @@ rails server
 *   [redis][]
 *   [PostgreSQL][]
 
+--------
+
+[BSD 2-Clause](LICENSE.md)
+
 [npm]: https://npmjs.com
 [bower]: http://bower.io
 [webpack]: http://webpack.github.io
