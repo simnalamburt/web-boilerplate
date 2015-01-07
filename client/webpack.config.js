@@ -4,8 +4,8 @@ var webpack = require('webpack');
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'dist/bundle.js'
+    path: './dist',
+    filename: 'bundle.js'
   },
   module: {
     loaders: [
