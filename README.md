@@ -10,6 +10,7 @@ npm install bower webpack-dev-server -g
 gem install rails --no-document
 
 # Client
+cd client
 npm install
 bower install
 webpack-dev-server --progress --colors
